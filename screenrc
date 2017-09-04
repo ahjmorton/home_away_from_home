@@ -1,0 +1,4 @@
+autodetach on
+startup_message off
+
+hardstatus alwayslastline "%-Lw%50>%n%f* %t%{-}%+Lw%<"
