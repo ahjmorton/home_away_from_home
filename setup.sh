@@ -1,3 +1,5 @@
-source ./docker_standins.sh
+CURRENT_DIR="$(dirname ${BASH_SOURCE[0]})"
 
-alias vim="vim -u $(dirname ${BASH_SOURCE[0]})/vimrc"
+source $CURRENT_DIR/docker_standins.sh
+
+alias vim="vim -u $CURRENT_DIR/vimrc"
