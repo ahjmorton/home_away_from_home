@@ -1,15 +1,16 @@
-" features
+set nocompatible
 
-syntax on
-
-set hidden
-
-" usability
+" Vim config
+set backspace=indent,eol,start
+set hlsearch
+set incsearch
+set ruler
+set number
+set showcmd
 set ignorecase
 set smartcase
-
-" Indentation
-set shiftwidth=4
 set expandtab
-
+set shiftwidth=2
+syntax on
 set autoindent
+set mouse=a
