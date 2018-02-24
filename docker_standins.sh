@@ -21,4 +21,5 @@ eval $(add_standin dot fgrehm/graphviz dot)
 eval $(add_standin curl byrnedo/apline-curl)
 eval $(add_standin groovy groovy)
 eval $(add_standin terraform hashicorp/terraform:light)
-eval $(add_standin gradle gradle:jdk8)
+eval $(add_standin gradle gradle:jdk8 gradle)
+
