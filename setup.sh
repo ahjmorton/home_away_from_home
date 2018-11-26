@@ -4,3 +4,4 @@ source $CURRENT_DIR/docker_standins.sh
 
 alias vim="vim -u $CURRENT_DIR/vimrc"
 alias screen="screen -c $CURRENT_DIR/vimrc"
+alias tmux="tmux -f $CURRENT_DIR/tmux.conf"
